@@ -16,7 +16,7 @@ versions = ['1.2.20', '1.2.21', '1.2.22', '1.2.23', '1.2.27', '1.2.28', '1.2.29'
 
 for i in range(0, len(versions)):
     print('wget https://cdnjs.cloudflare.com/ajax/libs/angular.js/' + versions[i] + '/angular-sanitize.js')
-    os.system('wget https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/' + versions[i] + '/angular-sanitize.js')
+    os.system('wget https://cdnjs.cloudflare.com/ajax/libs/angular.js/' + versions[i] + '/angular-sanitize.js')
     os.system("git add .")
     os.system("git commit -m 'angular-sanitize.js version " + versions[i] + "'")
     os.system("git push")
