@@ -22,5 +22,6 @@ for i in range(0, len(versions)):
     os.system("git push")
     #delay 3sec
     os.system("sleep 3")
+    os.system("rm angular-sanitize.js")
         
 
