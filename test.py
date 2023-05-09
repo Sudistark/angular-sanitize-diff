@@ -21,5 +21,7 @@ for i in range(0, len(versions)):
         os.system("git add .")
         os.system("git commit -m 'angular-sanitize.js version " + versions[i] + "'")
         os.system("git push")
+        #delay 3sec
+        os.system("sleep 3")
         
 
